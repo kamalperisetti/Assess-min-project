@@ -1,0 +1,177 @@
+@media screen and (max-width:768px) {
+    .submit-assess-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 312px;
+        height: 458px;
+        box-shadow: 0px 4px 16px 0px #7B879429;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .reattempt-btn{
+        background: #164687;
+        width:  120px;
+        height:  40px;
+        top: 497px;
+        left: 120px;
+        padding: 8px 32px 8px 32px;
+        gap: 0px;
+        border-radius: 4px 0px 0px 0px;
+        opacity: 0px;
+        font-family: "HK Grotesk";
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 16px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .your-score{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+        height: 32px;
+        opacity: 0px;
+        color: #164687;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+    
+    }
+    .score{
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        color: #044682;
+    
+    }
+    .sub-time{
+        color: #164687;
+        font-weight: 600;
+    }
+    .congrats{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .submit-assess-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 612px;
+        height: 758px;
+        box-shadow: 0px 4px 16px 0px #7B879429;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .congrats{
+        font-size: 20px;
+    }
+    .reattempt-btn{
+        background: #164687;
+        width:  150px;
+        height:  40px;
+        padding: 10px 32px 8px 32px;
+        border-radius: 8px;
+        font-family: "HK Grotesk";
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 16px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .your-score{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+        height: 32px;
+        opacity: 0px;
+        color: #164687;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+    
+    }
+    .score{
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        color: #044682;
+    
+    }
+    .sub-time{
+        color: #164687;
+        font-weight: 600;
+    }
+    .submit-image{
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .submit-assess-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 912px;
+        height: 658px;
+        box-shadow: 0px 4px 16px 0px #7B879429;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .congrats{
+        font-size: 20px;
+    }
+    .reattempt-btn{
+        background: #164687;
+        width:  150px;
+        height:  40px;
+        padding: 10px 32px 8px 32px;
+        border-radius: 8px;
+        font-family: "HK Grotesk";
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 16px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .your-score{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+        height: 32px;
+        opacity: 0px;
+        color: #164687;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+    
+    }
+    .score{
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        color: #044682;
+    
+    }
+    .sub-time{
+        color: #164687;
+        font-weight: 600;
+    }
+    .submit-image{
+        height: 300px;
+    }
+}

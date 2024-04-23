@@ -1,0 +1,106 @@
+@media screen and (max-width: 768px) {
+     
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        /* width: 100vw; */
+      }
+    .nav-container {
+        background-color: #263868;
+        /* display: flex;
+        align-items: center; */
+      }
+      .nav-image-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-logo-image {
+        height: 30px;
+        width: 50px;
+      }
+      .nav-assess-image {
+        height: 10px;
+        width: 50px;
+      }
+      .logout-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        padding: 7px;
+        border-radius: 10px;
+        font-size: 10px;
+        width: 70px;
+      }
+} 
+  
+  @media screen and ((min-width: 769px) and (max-width:992px)) {
+    .nav-container {
+        background-color: #263868;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px ;
+        align-items: center;
+        /* width: 100vw; */
+      }
+      .nav-image-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-logo-image {
+        height: 40px;
+        width: 70px;
+      }
+      .nav-assess-image {
+        height: 10px;
+        width: 50px;
+      }
+      .logout-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        padding: 7px;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 75px;
+      }
+      
+      .instruction {
+        color: #164687;
+        font-size: 17px;
+        font-weight: 700;
+      }
+  }
+  @media screen and ((min-width: 993px)) {
+    .nav-container {
+        background-color: #263868;
+        display: flex;
+        align-items: center;
+        /* width: 100vw; */
+        justify-content: space-between;
+        /* gap:60%; */
+        padding:10px 30PX 10PX 20PX;
+      }
+      .nav-image-container {
+        display: flex;
+      }
+      .nav-logo-image {
+        height: 60px;
+        width: 90px;
+      }
+      .nav-assess-image {
+        height: 10px;
+        width: 50px;
+      }
+      .logout-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        padding: 7px;
+        border-radius: 10px;
+        font-size: 19px;
+        width: 90px;
+      }
+      
+  }
+  

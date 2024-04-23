@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import Questions from "./components/questions";
+import Instructions from "./components/Instructions";
+import PageNotFound from "./components/Pagrnotfound";
+import TimeUp from "./components/Timeup";
+import SubmitAssessment from "./components/Submitpage";
+import ProtectedRoute from "./components/ProtectedRoute";
 
+import "./index.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route element={<ProtectedRoute />}>
+            <Route path="/" element={<Instructions />} />
+            <Route path="/questions" element={<Questions />} />
+            <Route path="/timeup" element={<TimeUp />} />
+            <Route path="/submited" element={<SubmitAssessment />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

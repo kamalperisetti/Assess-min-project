@@ -9,8 +9,9 @@ const Login = () => {
   const [errMsg, setErrMsg] = useState('')
   const [showPass, setShowPass] = useState(false)
   const navigate = useNavigate()
-  console.log(username)
-  const toTheLoginPage = async () => {
+  const toTheLoginPage = async (e) => {
+    // console.log(e)
+    e.preventDefault();
     const url = 'https://apis.ccbp.in/login'
     const optinos = {
       method: 'POST',
@@ -37,7 +38,7 @@ const Login = () => {
   }
   return (
     <div className="login-main-container">
-      <div className="login-container">
+      <form onSubmit={toTheLoginPage} className="login-container">
         <img
           className="logo-image"
           src="https://res.cloudinary.com/dymvamc30/image/upload/v1713336875/samples/image_28_Traced_gbeyjm.png"
@@ -81,11 +82,11 @@ const Login = () => {
           <input id="check" type="checkbox" onChange={showPassword}/>
           <label htmlFor="check">Show Password</label>
         </div>
-        <button className="login-btn" type="button" onClick={toTheLoginPage}>
+        <button className="login-btn" type="submit">
           Login
         </button>
         <p className="error">{errMsg}</p>
-      </div>
+      </form>
     </div>
   )
 }

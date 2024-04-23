@@ -55,7 +55,7 @@
     top: 540px;
     left: 24px;
     gap: 0px;
-    opacity: 0px;
+    
     padding: 10px;
   }
   .only-question{
@@ -68,7 +68,6 @@
     left: 40px;
     gap: 0px;
     border-radius: 8px;
-    opacity: 0px;
     background-color: #ebf3ff;
     color: #334155;
     border: 0px;
@@ -176,7 +175,7 @@
     left: 24px;
     gap: 0px;
     border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
+    
   }
   .submit-container {
     box-shadow: 0px 0px 15px 0px #dae4fa80;
@@ -185,7 +184,7 @@
     top: 540px;
     left: 24px;
     gap: 0px;
-    opacity: 0px;
+    
     padding: 10px;
   }
   .question-number {
@@ -229,7 +228,7 @@
     top: 540px;
     left: 24px;
     gap: 0px;
-    opacity: 0px;
+    
     padding: 20px;
   }
   .ans-btn {
@@ -239,7 +238,7 @@
     left: 40px;
     gap: 0px;
     border-radius: 8px;
-    opacity: 0px;
+    
     background-color: #ebf3ff;
     color: #334155;
     border: 0px;
@@ -403,7 +402,7 @@
     top: 540px;
     left: 24px;
     gap: 0px;
-    opacity: 0px;
+    
     order: 0;
     padding: 10px;
     margin-top: 10px;
@@ -415,7 +414,7 @@
     left: 40px;
     gap: 0px;
     border-radius: 8px;
-    opacity: 0px;
+    
     background-color: #ebf3ff;
     color: #334155;
     border: 0px;

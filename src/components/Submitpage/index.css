@@ -19,7 +19,7 @@
         padding: 8px 32px 8px 32px;
         gap: 0px;
         border-radius: 4px 0px 0px 0px;
-        opacity: 0px;
+        
         font-family: "HK Grotesk";
         font-size: 12px;
         font-weight: 800;
@@ -33,7 +33,7 @@
         align-items: center;
         gap:5px;
         height: 32px;
-        opacity: 0px;
+        
         color: #164687;
         font-family: Roboto;
         font-size: 20px;
@@ -92,7 +92,7 @@
         align-items: center;
         gap:5px;
         height: 32px;
-        opacity: 0px;
+        
         color: #164687;
         font-family: Roboto;
         font-size: 20px;
@@ -151,7 +151,7 @@
         align-items: center;
         gap:5px;
         height: 32px;
-        opacity: 0px;
+        
         color: #164687;
         font-family: Roboto;
         font-size: 20px;
